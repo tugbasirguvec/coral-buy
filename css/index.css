@@ -1,0 +1,26 @@
+/*.top-main {
+  background-color: rgba(30, 40, 50, 0.05);
+} */
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.user {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.account {
+  display: flex;
+  justify-content: center;
+}
+.shopping {
+  display: flex;
+  justify-content: center;
+}
