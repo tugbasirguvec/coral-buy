@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 10px 20px;
+}
+
+.search,
+.logo,
+.user {
+  flex-shrink: 0;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.user {
+  display: flex;
+  gap: 20px;
+}
+
+.account,
+.shopping {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
