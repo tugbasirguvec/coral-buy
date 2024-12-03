@@ -1,26 +1,44 @@
-/*.top-main {
-  background-color: rgba(30, 40, 50, 0.05);
-} */
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .top-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 30px;
+  width: 90%;
+  margin: 10px 20px;
 }
+
+.search,
+.logo,
+.user {
+  flex-shrink: 0;
+}
+
 .logo {
   display: flex;
   justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  text-align: center;
 }
+
 .user {
   display: flex;
-  justify-content: center;
   gap: 20px;
 }
-.account {
-  display: flex;
-  justify-content: center;
-}
+
+.account,
 .shopping {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
 }
